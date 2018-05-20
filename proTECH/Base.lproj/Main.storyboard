@@ -13,7 +13,7 @@
         <!--On Boarding Screen-->
         <scene sceneID="kyc-ps-9Nm">
             <objects>
-                <viewController id="ixc-dT-7YT" customClass="onBoardingScreen" customModule="proTECH" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="onBoardingScreen" id="ixc-dT-7YT" customClass="onBoardingScreen" customModule="proTECH" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pgc-w8-siI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,6 +47,7 @@
                                 <connections>
                                     <action selector="inDanger:" destination="X7L-vk-EkL" eventType="touchUpInside" id="58B-26-H7q"/>
                                     <action selector="uploadImage:" destination="ixc-dT-7YT" eventType="touchUpInside" id="3n7-KD-rF3"/>
+                                    <segue destination="X7L-vk-EkL" kind="show" identifier="uploadPressed" id="yTw-1J-4Or"/>
                                 </connections>
                             </button>
                         </subviews>

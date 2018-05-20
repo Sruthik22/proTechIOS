@@ -11,7 +11,7 @@ import UIKit
 class inDanger: UIViewController {
     
     @IBAction func inDanger(_ sender: Any) {
-        self.performSegue(withIdentifier: "inDanger", sender: nil)
+        performSegue(withIdentifier: "inDanger", sender: self)
     }
     
 

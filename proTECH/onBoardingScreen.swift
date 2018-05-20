@@ -61,6 +61,10 @@ class onBoardingScreen: UIViewController, UIImagePickerControllerDelegate, UINav
         UserDefaults.standard.set(imageData, forKey: "savedFloorPlan")
         
         UserDefaults.standard.set("uploaded", forKey: "name")
+        
+        performSegue(withIdentifier: "uploadPressed", sender: self)
+        
+        
     }
     
     
