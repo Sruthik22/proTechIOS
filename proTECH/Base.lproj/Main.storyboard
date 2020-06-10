@@ -153,6 +153,24 @@
                                     <action selector="placeYourLocation:" destination="IV4-jH-k0j" eventType="touchUpInside" id="xhR-n4-XBM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xf8-op-n5q">
+                                <rect key="frame" x="164" y="349" width="78" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.39732487529012661" green="0.54492589874029007" blue="0.94697810913705582" alpha="0.49451519691780821" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="You"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7p-UQ-t7l">
+                                <rect key="frame" x="77" y="93" width="74" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94697810913705582" green="0.33067630288597483" blue="0.40121626862398224" alpha="0.24740475171232876" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Shooter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPF-Ds-l72">
+                                <rect key="frame" x="180" y="279" width="172" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71569728377617325" green="0.94697810913705582" blue="0.67451885856464722" alpha="0.38952803938356162" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Path"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ZsS-Q7-Oc5"/>

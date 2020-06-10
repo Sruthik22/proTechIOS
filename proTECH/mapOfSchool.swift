@@ -30,6 +30,8 @@ class mapOfSchool: UIViewController, UIImagePickerControllerDelegate, UINavigati
     var pressedPlaceTheShooter = false
     var alreadyMade = false
     
+    var pressed_by_both = 0
+    
     @IBAction func placeTheShooter(_ sender: Any) {
         
         pressedPlaceTheShooter = true
@@ -92,6 +94,7 @@ class mapOfSchool: UIViewController, UIImagePickerControllerDelegate, UINavigati
                 // }
                 
                 pressedPlaceTheShooter = false
+                pressed_by_both = 1
                 
             }
             
@@ -105,7 +108,7 @@ class mapOfSchool: UIViewController, UIImagePickerControllerDelegate, UINavigati
                 // if (frm.origin.y <= positionArray[1] <= frm.size.height) {
                 // Then the point is within the uiimage view
                 
-                
+                pressed_by_both = 2
                 
                 if (alreadyMadeUser == false) {
                     let whitePin = UIImage(named: "userPin")
@@ -121,6 +124,9 @@ class mapOfSchool: UIViewController, UIImagePickerControllerDelegate, UINavigati
                     view.addSubview(pinImageViewUser)
                 }
                 
+                if (pressed_by_both == 2) {
+                }
+                
                 // }
                 
                 
@@ -129,6 +135,7 @@ class mapOfSchool: UIViewController, UIImagePickerControllerDelegate, UINavigati
                 // }
                 
                 pressedPlaceUserLocation = false
+                
             }
         }
         

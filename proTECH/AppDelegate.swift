@@ -22,8 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         var vc: UIViewController
         
-        print(UserDefaults.standard.value(forKey: "name") as? String)
-        
         if (UserDefaults.standard.value(forKey: "name") as? String) == nil {
             // show the onboarding website
             vc = storyBoard.instantiateViewController(withIdentifier: "onBoardingScreen")
